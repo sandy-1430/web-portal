@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css';
 import { useRouter } from 'next/router'
 
 
-export default function register() {
+export default function Register() {
     const router = useRouter()
     const [name, setName] = useState('');
     const [dob, setDob] = useState();
